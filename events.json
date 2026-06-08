@@ -1,0 +1,61 @@
+{
+  "_comment": "events.json — Featured events shown on the Home tab. Past events are auto-hidden by the app. Sorted by date ascending. Each event needs: id, title, date (ISO), location, blurb, image (either {uri: 'https://...'} or skip for default). Optional: endDate (multi-day), url (registration / details link).",
+
+  "events": [
+    {
+      "id": "real-saint-francis",
+      "title": "The Real Saint Francis",
+      "date": "2026-06-10T18:30:00",
+      "location": "Saint Mark",
+      "blurb": "Wednesday nights in June, 6:30 – 8:00 PM. Explore the life of this amazing saint — childcare provided for ages 4 and up.",
+      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/3729a824-6244-40ab-8faa-1f467bd62653/Screenshot+2026-05-20+133213.jpg" },
+      "url": "https://www.stmarkrc.org/summer"
+    },
+    {
+      "id": "date-night-june",
+      "title": "Couples Date Night",
+      "date": "2026-06-19T16:30:00",
+      "location": "Saint Mark",
+      "blurb": "Drop the kids off and enjoy a night out — then return to St. Mark at 6:30 PM for drinks and desserts with other parish couples. Free; please register.",
+      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/d2bf0287-cbbd-46df-9a1a-b39513e1acaf/Screenshot+2026-05-20+140837.jpg" },
+      "url": "https://www.stmarkrc.org/summer"
+    },
+    {
+      "id": "homerun-derby",
+      "title": "Saint Mark Homerun Derby",
+      "date": "2026-06-20T17:00:00",
+      "location": "Saint Mark",
+      "blurb": "Get your bats ready! Cookout, prizes, and different age groups. Bring the family for a Saturday evening of fun.",
+      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/396d8a6f-3dbc-4877-b95f-8b8b45ea0990/Screenshot+2026-05-20+140234.jpg" },
+      "url": "https://giving.parishsoft.com/App/Form/0fde0cb5-ce57-4c86-9b55-eed5d1768a24"
+    },
+    {
+      "id": "father-son-baseball",
+      "title": "Father/Son Baseball Game",
+      "date": "2026-06-26T19:00:00",
+      "location": "Regions Field (Barons Baseball)",
+      "blurb": "Fathers and sons enjoy a night at the ballpark with Fr. Ward. First pitch 7:00 PM. Includes seated ticket, hot-dog combo dinner, and fireworks!",
+      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/50cc2d0e-2748-4e83-84a1-5f37e69f5d16/Screenshot+2026-06-01+105121.jpg" },
+      "url": "https://giving.parishsoft.com/App/Form/9be15aab-ac45-4b19-af15-7c0900b192de"
+    },
+    {
+      "id": "vbs-2026",
+      "title": "Saint Mark VBS",
+      "date": "2026-06-29T09:00:00",
+      "endDate": "2026-07-03T15:00:00",
+      "location": "Saint Mark",
+      "blurb": "June 29 – July 3, 9 AM to 3 PM daily. Pray, learn, play, and grow in the faith at our annual Vacation Bible School.",
+      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/5d0ef719-2b7d-4590-a14e-f4c20ef5f746/image0.png" },
+      "url": "https://giving.parishsoft.com/App/Form/1e65e5d8-78b2-4787-864b-589d2ae99282"
+    },
+    {
+      "id": "date-night-july",
+      "title": "Couples Date Night",
+      "date": "2026-07-31T16:30:00",
+      "location": "Saint Mark",
+      "blurb": "Drop the kids off and enjoy a night out — then return to St. Mark at 6:30 PM for drinks and desserts with other parish couples. Free; please register.",
+      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/d2bf0287-cbbd-46df-9a1a-b39513e1acaf/Screenshot+2026-05-20+140837.jpg" },
+      "url": "https://www.stmarkrc.org/summer"
+    }
+  ]
+}
