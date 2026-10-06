@@ -11,7 +11,7 @@
       "location": "Saint Mark",
       "blurb": "Mass at 5:00, parish dinner at 5:30, then classes and groups for every age at 6:30 — plus Confession and Adoration. Nursery available 6–8 PM.",
       "image": {
-        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/da049f6f-d998-4d15-904b-73b30603c5bd/481358046_923313653297166_1533245370102839930_n.jpg"
+        "uri": "https://stmarkrc.github.io/leo-content/images/event-wnl.jpg"
       },
       "url": "https://www.stmarkrc.org/wednesdaynightlive"
     },
@@ -21,9 +21,9 @@
       "date": "2026-10-30T17:00:00",
       "endDate": "2026-10-30T19:00:00",
       "location": "Saint Mark",
-      "blurb": "Inflatables, face painting, costume contests, pumpkin decorating, games, and more! 5–7 PM.",
+      "blurb": "Inflatables, face painting, costume contests, pumpkin decorating, games, and more!",
       "image": {
-        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/61a6c5d8-85ee-42aa-ad45-cbb8790b6bf7/480672394_923313733297158_6894731789392814833_n.jpg"
+        "uri": "https://stmarkrc.github.io/leo-content/images/event-all-hallows-eve.jpg"
       }
     },
     {
@@ -31,9 +31,9 @@
       "title": "St. Mark Community Service Day",
       "date": "2026-11-14T09:00:00",
       "location": "Saint Mark",
-      "blurb": "A parish day of service — join fellow parishioners in serving our neighbors in need throughout the community. Starts at 9:00 AM.",
+      "blurb": "A parish day of service — join fellow parishioners in serving our neighbors in need throughout the community.",
       "image": {
-        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/368048df-e086-4788-bae4-49447538fdf5/539797370_1061075912854272_6011835509569056934_n.jpg"
+        "uri": "https://stmarkrc.github.io/leo-content/images/event-service-day.jpg"
       }
     },
     {
@@ -41,30 +41,31 @@
       "title": "Thanksgiving Meal",
       "date": "2026-11-18T17:30:00",
       "location": "Parish Hall",
-      "blurb": "Give thanks together over a shared parish meal at 5:30 PM in the Parish Hall.",
+      "blurb": "Give thanks together over a shared parish meal.",
       "image": {
-        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/bf2eb16b-9bba-4404-9ec8-71ec1780feb8/494566144_973015631660301_1004127035132554960_n.jpg"
+        "uri": "https://stmarkrc.github.io/leo-content/images/event-thanksgiving-meal.jpg"
       }
     },
     {
       "id": "vigil-project-2026",
       "title": "The Vigil Project",
       "date": "2026-12-04T19:00:00",
+      "endDate": "2026-12-04T21:00:00",
       "location": "Saint Mark Church",
-      "blurb": "An Advent Mission evening of prayer and music, 7–9 PM in the church, followed by a reception in the Parish Hall foyer.",
+      "blurb": "An Advent Mission evening of prayer and music in the church, followed by a reception in the Parish Hall foyer.",
       "image": {
-        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/2755374d-f0f4-4d12-8f86-d400d3c9a2f8/XGZV2379.JPG"
+        "uri": "https://stmarkrc.github.io/leo-content/images/event-vigil-project.jpg"
       }
     },
     {
       "id": "advent-festival-2026",
       "title": "Advent Festival & Market",
-      "day": "2026-12-17",
-      "endDay": "2026-12-20",
+      "date": "2026-12-17T17:00:00",
+      "endDate": "2026-12-20T23:59:00",
       "location": "Saint Mark",
       "blurb": "Saint Mark's first-ever Advent Festival: four days of concerts, a tree lighting, Christmas market, live nativity, and children's activities.",
       "image": {
-        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/7e3ac8c6-02e4-4ae9-9797-4dd2d4afa6d2/STD+Advent.jpg"
+        "uri": "https://stmarkrc.github.io/leo-content/images/event-advent-festival.jpg"
       },
       "url": "https://www.stmarkrc.org/adventfestival"
     },
@@ -75,7 +76,7 @@
       "location": "Saint Mark",
       "blurb": "",
       "image": {
-        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/11c3184d-49f6-4d09-a495-98407d4b6124/494483863_973015601660304_6335098655300694244_n.jpg"
+        "uri": "https://stmarkrc.github.io/leo-content/images/event-new-years-eve.jpg"
       }
     }
   ]
