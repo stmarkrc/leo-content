@@ -1,61 +1,81 @@
 {
-  "_comment": "events.json — Featured events shown on the Home tab. Past events are auto-hidden by the app. Sorted by date ascending. Each event needs: id, title, date (ISO), location, blurb, image (either {uri: 'https://...'} or skip for default). Optional: endDate (multi-day), url (registration / details link).",
-
+  "_comment": "events.json — Featured events on the Home tab. Two date styles: (A) \"date\": \"2026-11-18T17:30:00\" (+ optional \"endDate\") — exact time, works on all app versions; (B) \"day\": \"2026-10-30\" (+ optional \"time\": \"17:00\", \"endDay\", \"repeat\": \"weekly\") — no set time / multi-day / weekly series, shown on app v1.0.9+ only. Past events auto-hide. image: {\"uri\": \"https://...\"}. Optional url = registration/details link.",
   "events": [
     {
-      "id": "real-saint-francis",
-      "title": "The Real Saint Francis",
-      "date": "2026-06-10T18:30:00",
+      "id": "wnl-fall-2026",
+      "title": "Wednesday Night Live",
+      "day": "2026-10-07",
+      "endDay": "2026-11-18",
+      "time": "17:00",
+      "repeat": "weekly",
       "location": "Saint Mark",
-      "blurb": "Wednesday nights in June, 6:30 – 8:00 PM. Explore the life of this amazing saint — childcare provided for ages 4 and up.",
-      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/3729a824-6244-40ab-8faa-1f467bd62653/Screenshot+2026-05-20+133213.jpg" },
-      "url": "https://www.stmarkrc.org/summer"
+      "blurb": "Mass at 5:00, parish dinner at 5:30, then classes and groups for every age at 6:30 — plus Confession and Adoration. Nursery available 6–8 PM.",
+      "image": {
+        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/da049f6f-d998-4d15-904b-73b30603c5bd/481358046_923313653297166_1533245370102839930_n.jpg"
+      },
+      "url": "https://www.stmarkrc.org/wednesdaynightlive"
     },
     {
-      "id": "date-night-june",
-      "title": "Couples Date Night",
-      "date": "2026-06-19T16:30:00",
+      "id": "all-hallows-eve-2026",
+      "title": "All Hallows Eve Festival",
+      "day": "2026-10-30",
       "location": "Saint Mark",
-      "blurb": "Drop the kids off and enjoy a night out — then return to St. Mark at 6:30 PM for drinks and desserts with other parish couples. Free; please register.",
-      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/d2bf0287-cbbd-46df-9a1a-b39513e1acaf/Screenshot+2026-05-20+140837.jpg" },
-      "url": "https://www.stmarkrc.org/summer"
+      "blurb": "Join us for Saint Mark's All Hallows Eve Festival. More details coming soon.",
+      "image": {
+        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/61a6c5d8-85ee-42aa-ad45-cbb8790b6bf7/480672394_923313733297158_6894731789392814833_n.jpg"
+      }
     },
     {
-      "id": "homerun-derby",
-      "title": "Saint Mark Homerun Derby",
-      "date": "2026-06-20T17:00:00",
+      "id": "service-day-2026",
+      "title": "St. Mark Community Service Day",
+      "date": "2026-11-14T09:00:00",
       "location": "Saint Mark",
-      "blurb": "Get your bats ready! Cookout, prizes, and different age groups. Bring the family for a Saturday evening of fun.",
-      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/396d8a6f-3dbc-4877-b95f-8b8b45ea0990/Screenshot+2026-05-20+140234.jpg" },
-      "url": "https://giving.parishsoft.com/App/Form/0fde0cb5-ce57-4c86-9b55-eed5d1768a24"
+      "blurb": "Serve our community together as a parish family. Starts at 9:00 AM; more details coming soon.",
+      "image": {
+        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/368048df-e086-4788-bae4-49447538fdf5/539797370_1061075912854272_6011835509569056934_n.jpg"
+      }
     },
     {
-      "id": "father-son-baseball",
-      "title": "Father/Son Baseball Game",
-      "date": "2026-06-26T19:00:00",
-      "location": "Regions Field (Barons Baseball)",
-      "blurb": "Fathers and sons enjoy a night at the ballpark with Fr. Ward. First pitch 7:00 PM. Includes seated ticket, hot-dog combo dinner, and fireworks!",
-      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/50cc2d0e-2748-4e83-84a1-5f37e69f5d16/Screenshot+2026-06-01+105121.jpg" },
-      "url": "https://giving.parishsoft.com/App/Form/9be15aab-ac45-4b19-af15-7c0900b192de"
+      "id": "thanksgiving-meal-2026",
+      "title": "Thanksgiving Meal",
+      "date": "2026-11-18T17:30:00",
+      "location": "Parish Hall",
+      "blurb": "Gather with your parish family to give thanks over a shared meal at 5:30 PM.",
+      "image": {
+        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/bf2eb16b-9bba-4404-9ec8-71ec1780feb8/494566144_973015631660301_1004127035132554960_n.jpg"
+      }
     },
     {
-      "id": "vbs-2026",
-      "title": "Saint Mark VBS",
-      "date": "2026-06-29T09:00:00",
-      "endDate": "2026-07-03T15:00:00",
-      "location": "Saint Mark",
-      "blurb": "June 29 – July 3, 9 AM to 3 PM daily. Pray, learn, play, and grow in the faith at our annual Vacation Bible School.",
-      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/5d0ef719-2b7d-4590-a14e-f4c20ef5f746/image0.png" },
-      "url": "https://giving.parishsoft.com/App/Form/1e65e5d8-78b2-4787-864b-589d2ae99282"
+      "id": "vigil-project-2026",
+      "title": "The Vigil Project",
+      "date": "2026-12-04T19:00:00",
+      "location": "Saint Mark Church",
+      "blurb": "An Advent Mission evening of prayer and music, 7–9 PM in the church, followed by a reception in the Parish Hall foyer.",
+      "image": {
+        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/2755374d-f0f4-4d12-8f86-d400d3c9a2f8/XGZV2379.JPG"
+      }
     },
     {
-      "id": "date-night-july",
-      "title": "Couples Date Night",
-      "date": "2026-07-31T16:30:00",
+      "id": "advent-festival-2026",
+      "title": "Advent Festival & Market",
+      "day": "2026-12-17",
+      "endDay": "2026-12-20",
       "location": "Saint Mark",
-      "blurb": "Drop the kids off and enjoy a night out — then return to St. Mark at 6:30 PM for drinks and desserts with other parish couples. Free; please register.",
-      "image": { "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/d2bf0287-cbbd-46df-9a1a-b39513e1acaf/Screenshot+2026-05-20+140837.jpg" },
-      "url": "https://www.stmarkrc.org/summer"
+      "blurb": "Saint Mark's first-ever Advent Festival: four days of concerts, a tree lighting, Christmas market, live nativity, and children's activities.",
+      "image": {
+        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/7e3ac8c6-02e4-4ae9-9797-4dd2d4afa6d2/STD+Advent.jpg"
+      },
+      "url": "https://www.stmarkrc.org/adventfestival"
+    },
+    {
+      "id": "new-years-eve-2026",
+      "title": "New Year's Eve Party",
+      "day": "2026-12-31",
+      "location": "Saint Mark",
+      "blurb": "Ring in 2027 with your parish family. More details coming soon.",
+      "image": {
+        "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/11c3184d-49f6-4d09-a495-98407d4b6124/494483863_973015601660304_6335098655300694244_n.jpg"
+      }
     }
   ]
 }
