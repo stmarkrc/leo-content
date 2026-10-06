@@ -18,9 +18,10 @@
     {
       "id": "all-hallows-eve-2026",
       "title": "All Hallows Eve Festival",
-      "day": "2026-10-30",
+      "date": "2026-10-30T17:00:00",
+      "endDate": "2026-10-30T19:00:00",
       "location": "Saint Mark",
-      "blurb": "Join us for Saint Mark's All Hallows Eve Festival. More details coming soon.",
+      "blurb": "Inflatables, face painting, costume contests, pumpkin decorating, games, and more! 5–7 PM.",
       "image": {
         "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/61a6c5d8-85ee-42aa-ad45-cbb8790b6bf7/480672394_923313733297158_6894731789392814833_n.jpg"
       }
@@ -30,7 +31,7 @@
       "title": "St. Mark Community Service Day",
       "date": "2026-11-14T09:00:00",
       "location": "Saint Mark",
-      "blurb": "Serve our community together as a parish family. Starts at 9:00 AM; more details coming soon.",
+      "blurb": "A parish day of service — join fellow parishioners in serving our neighbors in need throughout the community. Starts at 9:00 AM.",
       "image": {
         "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/368048df-e086-4788-bae4-49447538fdf5/539797370_1061075912854272_6011835509569056934_n.jpg"
       }
@@ -40,7 +41,7 @@
       "title": "Thanksgiving Meal",
       "date": "2026-11-18T17:30:00",
       "location": "Parish Hall",
-      "blurb": "Gather with your parish family to give thanks over a shared meal at 5:30 PM.",
+      "blurb": "Give thanks together over a shared parish meal at 5:30 PM in the Parish Hall.",
       "image": {
         "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/bf2eb16b-9bba-4404-9ec8-71ec1780feb8/494566144_973015631660301_1004127035132554960_n.jpg"
       }
@@ -70,9 +71,9 @@
     {
       "id": "new-years-eve-2026",
       "title": "New Year's Eve Party",
-      "day": "2026-12-31",
+      "date": "2026-12-31T20:00:00",
       "location": "Saint Mark",
-      "blurb": "Ring in 2027 with your parish family. More details coming soon.",
+      "blurb": "",
       "image": {
         "uri": "https://images.squarespace-cdn.com/content/v1/69b0b470e6e6b4683821b3dd/11c3184d-49f6-4d09-a495-98407d4b6124/494483863_973015601660304_6335098655300694244_n.jpg"
       }
