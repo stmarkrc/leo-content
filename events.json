@@ -24,7 +24,11 @@
       "blurb": "Inflatables, face painting, costume contests, pumpkin decorating, games, and more!",
       "image": {
         "uri": "https://stmarkrc.github.io/leo-content/images/event-all-hallows-eve.jpg"
-      }
+      },
+      "poster": {
+        "uri": "https://stmarkrc.github.io/leo-content/images/poster-all-hallows-eve.jpg"
+      },
+      "posterAspect": 1.4493
     },
     {
       "id": "service-day-2026",
@@ -49,13 +53,17 @@
     {
       "id": "vigil-project-2026",
       "title": "The Vigil Project",
-      "date": "2026-12-04T19:00:00",
-      "endDate": "2026-12-04T21:00:00",
+      "date": "2026-12-04T18:30:00",
       "location": "Saint Mark Church",
-      "blurb": "An Advent Mission evening of prayer and music in the church, followed by a reception in the Parish Hall foyer.",
+      "blurb": "Way of the Star: a one-night Advent mission experience of scripture, music, art, and Eucharistic encounter, presented by Saint Mark and Arise Worship Ministry. Confession will be available.",
       "image": {
         "uri": "https://stmarkrc.github.io/leo-content/images/event-vigil-project.jpg"
-      }
+      },
+      "poster": {
+        "uri": "https://stmarkrc.github.io/leo-content/images/poster-vigil-project.jpg"
+      },
+      "posterAspect": 0.7727,
+      "url": "https://thevigilproject.com"
     },
     {
       "id": "advent-festival-2026",
@@ -67,6 +75,10 @@
       "image": {
         "uri": "https://stmarkrc.github.io/leo-content/images/event-advent-festival.jpg"
       },
+      "poster": {
+        "uri": "https://stmarkrc.github.io/leo-content/images/poster-advent-festival.jpg"
+      },
+      "posterAspect": 3.0691,
       "url": "https://www.stmarkrc.org/adventfestival"
     },
     {
