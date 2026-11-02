@@ -1,5 +1,5 @@
 {
-  "_comment": "events.json — Featured events on the Home tab. Two date styles: (A) \"date\": \"2026-11-18T17:30:00\" (+ optional \"endDate\") — exact time, works on all app versions; (B) \"day\": \"2026-10-30\" (+ optional \"time\": \"17:00\", \"endDay\", \"repeat\": \"weekly\") — no set time / multi-day / weekly series, shown on app v1.0.9+ only. Past events auto-hide. image: {\"uri\": \"https://...\"}. Optional url = registration/details link.",
+  "_comment": "events.json — Featured events on the Home tab. GENERATED from the-leo/data/featured-events.js by scripts/build-events-json.cjs; edit that file, then regenerate. Two date styles: (A) \"date\": \"2026-11-18T17:30:00\" (+ optional \"endDate\") — exact time, works on all app versions; (B) \"day\": \"2026-10-30\" (+ optional \"time\", \"endDay\", \"repeat\": \"weekly\") — shown on app v1.0.9+ only. Past events auto-hide. Optional: url (https or mailto), linkLabel, poster + posterAspect (v1.0.9+).",
   "events": [
     {
       "id": "wnl-fall-2026",
@@ -35,10 +35,16 @@
       "title": "St. Mark Community Service Day",
       "date": "2026-11-14T09:00:00",
       "location": "Saint Mark",
-      "blurb": "A parish day of service — join fellow parishioners in serving our neighbors in need throughout the community.",
+      "blurb": "Saint Mark parishioners will come together to serve throughout Birmingham and our surrounding communities alongside Habitat for Humanity, Holy Rosary Food Pantry, Cahaba Medical Care, Riverkeepers Society, Pathways, La Casita, Life on Wheels, and Saint Mark on-campus support. Sign up and choose where you'd like to serve!",
       "image": {
         "uri": "https://stmarkrc.github.io/leo-content/images/event-service-day.jpg"
-      }
+      },
+      "poster": {
+        "uri": "https://stmarkrc.github.io/leo-content/images/poster-service-day.jpg"
+      },
+      "posterAspect": 0.8108,
+      "url": "https://www.stmarkrc.org/serve",
+      "linkLabel": "Sign Up"
     },
     {
       "id": "thanksgiving-meal-2026",
@@ -49,6 +55,22 @@
       "image": {
         "uri": "https://stmarkrc.github.io/leo-content/images/event-thanksgiving-meal.jpg"
       }
+    },
+    {
+      "id": "deck-the-halls-2026",
+      "title": "Deck the Halls",
+      "date": "2026-11-29T13:30:00",
+      "location": "Saint Mark",
+      "blurb": "Bring the whole family, get into the Christmas spirit, and help us decorate Saint Mark! Refreshments provided. Please email Kelley Olis to be added to the head count.",
+      "image": {
+        "uri": "https://stmarkrc.github.io/leo-content/images/event-deck-the-halls.jpg"
+      },
+      "poster": {
+        "uri": "https://stmarkrc.github.io/leo-content/images/poster-deck-the-halls.jpg"
+      },
+      "posterAspect": 1.4493,
+      "url": "mailto:kelley@stmarkrc.org?subject=Deck%20the%20Halls",
+      "linkLabel": "Email Kelley"
     },
     {
       "id": "vigil-project-2026",
